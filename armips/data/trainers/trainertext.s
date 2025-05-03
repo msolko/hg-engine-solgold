@@ -403,9 +403,14 @@ _02E0: // Trainer 251
     trainertextentry 251, TEXT_DEFEATED_IN_OVERWORLD, "I lost! \nI’m speechless!\n"
 
 _02EC: // Trainer 159
-    trainertextentry 159, TEXT_NOTICE_IN_OVERWORLD, "My raging fists will shatter your\nPokémon!\r"
-    trainertextentry 159, TEXT_DEFEATED_IN_BATTLE, "I got shattered!\n"
-    trainertextentry 159, TEXT_DEFEATED_IN_OVERWORLD, "My Pokémon lost...\nMy...my pride is shattered...\n"
+    trainertextentry 159, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1,  "My raging fists will shatter your\nPokémon!\r"
+    trainertextentry 159, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "I got shattered!\n"
+    trainertextentry 159, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_1, "My Pokémon lost...\nMy...my pride is shattered...\n"
+    trainertextentry 159, TEXT_DOUBLE_ONLY_1_POKEMON_1, "All right, let’s go!\rI bet that’s what you were thinking!\nBut you’ve only got one Pokémon.\rSo we can’t battle.\n"
+    trainertextentry 159, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_2,  "Prepare your bones.\r"
+    trainertextentry 159, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "I do not have insurance!\n"
+    trainertextentry 159, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_2, "My Pokémon lost...\nMy...my pride is shattered...\n"
+    trainertextentry 159, TEXT_DOUBLE_ONLY_1_POKEMON_2, "Huh?\nNot enough Pokémon?\n"
 
 _02F8: // Trainer 480
     trainertextentry 480, TEXT_NOTICE_IN_OVERWORLD, "To get to Pryce, our Gym Leader,\nyou need to think before you skate.\r"
@@ -1186,14 +1191,24 @@ _0A4C: // Trainer 383
     trainertextentry 383, TEXT_DEFEATED_IN_OVERWORLD, "I should train again at the Gym in\nViolet City.\n"
 
 _0A58: // Trainer 26
-    trainertextentry  26, TEXT_NOTICE_IN_OVERWORLD, "That glance...\nIt’s intriguing.\r"
-    trainertextentry  26, TEXT_DEFEATED_IN_BATTLE, "Hmmm. This is disappointing.\n"
-    trainertextentry  26, TEXT_DEFEATED_IN_OVERWORLD, "If you don’t want to battle, just avoid\neye contact.\n"
+    trainertextentry  26, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "Roland: My daughter is my sunshine!\r"
+    trainertextentry  26, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "Roland: Poor weather..."
+    trainertextentry  26, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_1, "Roland: Who is the cutest?"
+    trainertextentry  26, TEXT_DOUBLE_ONLY_1_POKEMON_1, "Roland: You have only one Pokémon?\nThat’s kind of lonely..."
+    trainertextentry  26, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_2, "Mika: Look at me!\r"
+    trainertextentry  26, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Mika: Waah!\n"
+    trainertextentry  26, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_2, "Mika I am the cutest!\n"
+    trainertextentry  26, TEXT_DOUBLE_ONLY_1_POKEMON_2, "Mika: It’s a little unfair to battle\nsomeone who has only one Pokémon.\n"
 
 _0A64: // Trainer 18
-    trainertextentry  18, TEXT_NOTICE_IN_OVERWORLD, "Whoa!\rYou made me lose that fish!\r"
-    trainertextentry  18, TEXT_DEFEATED_IN_BATTLE, "Sploosh!\n"
-    trainertextentry  18, TEXT_DEFEATED_IN_OVERWORLD, "Calm, collected...\rThe essence of fishing and Pokémon is\nthe same.\n"
+    trainertextentry  18, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "Emma: A pier date sounded fun.\r"
+    trainertextentry  18, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "Emma: I got all wet!"
+    trainertextentry  18, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_1, "Emma: Can we go home now?"
+    trainertextentry  18, TEXT_DOUBLE_ONLY_1_POKEMON_1, "Emma: You have only one Pokémon?\nThat’s kind of lonely..."
+    trainertextentry  18, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_2, "Justin: Nature is great.\r"
+    trainertextentry  18, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Justin: Not cool...\n"
+    trainertextentry  18, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_2, "Justin: Way to dampen the mood.\n"
+    trainertextentry  18, TEXT_DOUBLE_ONLY_1_POKEMON_2, "Justin: It’s a little unfair to battle\nsomeone who has only one Pokémon.\n"
 
 _0A70: // Trainer 57
     trainertextentry  57, TEXT_NOTICE_IN_OVERWORLD, "I’m really good at fishing, but I’m even\nbetter at Pokémon!\r"
@@ -2008,9 +2023,14 @@ _1224: // Trainer 101
     trainertextentry 101, TEXT_DEFEATED_IN_OVERWORLD, "Sure, we’ve been hacking the tails off\nSLOWPOKE and selling them.\rTeam Rocket will do anything for money!\n"
 
 _1230: // Trainer 13
-    trainertextentry  13, TEXT_NOTICE_IN_OVERWORLD, "Stop taking SlowpokeTails?\rWhat?! You want us to disobey a direct\norder from Executive Proton?\rIf you want to stop us, you’ll have to\ndefeat us all! Go ahead and try!\r"
-    trainertextentry  13, TEXT_DEFEATED_IN_BATTLE, "You rotten brat!\n"
-    trainertextentry  13, TEXT_DEFEATED_IN_OVERWORLD, "SlowpokeTails grow back fast!\rBesides, it was an order from Proton,\nso I’m more concerned about that!\n"
+    trainertextentry  13, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "Stop taking SlowpokeTails?\rWhat?! You want us to disobey a direct\norder from Executive Proton?\r"
+    trainertextentry  13, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "You rotten brat!\n"
+    trainertextentry  13, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_1, "SlowpokeTails grow back fast!\rBesides, it was an order from Proton,\nso I’m more concerned about that!\n\r"
+    trainertextentry  13, TEXT_DOUBLE_ONLY_1_POKEMON_1, "We are Team Rocket, but still not\ngoing to do a 2v1!\r"
+    trainertextentry  13, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_2, "If you want to stop us, you’ll have to\ndefeat us all! Go ahead and try!\r"
+    trainertextentry  13, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "You rotten brat!\n"
+    trainertextentry  13, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_2, "SlowpokeTails grow back fast!\rBesides, it was an order from Proton,\nso I’m more concerned about that!\r"
+    trainertextentry  13, TEXT_DOUBLE_ONLY_1_POKEMON_2, "We are Team Rocket, but still not\ngoing to do a 2v1!\r"
 
 _123C: // Trainer 73
     trainertextentry  73, TEXT_NOTICE_IN_OVERWORLD, "What are you here for? Just to stand\naround and gawk? I suggest you leave!\r"
