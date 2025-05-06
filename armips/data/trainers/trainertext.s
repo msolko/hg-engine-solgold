@@ -313,9 +313,9 @@ _0200: // Trainer 719
     trainertextentry 719, TEXT_DEFEATED_IN_BATTLE, "I lost? ...\rI don’t believe it.\nThere must be some mistake...\n"
 
 _020C: // Trainer 29
-    trainertextentry  29, TEXT_NOTICE_IN_OVERWORLD, "Ho ho!\rYou some kind of big shot? We’ll see\fwhat happens if you get pushed around\nup here. Think you’ll stagger and fall?\rPeople here are training night and\nday to become bird Pokémon masters.\rBring it on!\r"
+    trainertextentry  29, TEXT_NOTICE_IN_OVERWORLD, "When I heard my BFF wanted to change\nthings up, of course I came with!\rWait, I wasn’t supposed to say that...\nFalkner is still here, got it?\r"
     trainertextentry  29, TEXT_DEFEATED_IN_BATTLE, "Gaaah!\n"
-    trainertextentry  29, TEXT_DEFEATED_IN_OVERWORLD, "Falkner’s skills are for real!\rDon’t get cocky!"
+    trainertextentry  29, TEXT_DEFEATED_IN_OVERWORLD, "I think you’ll go far with\n a fiesty attitude like that!"
 
 _0218: // Trainer 50
     trainertextentry  50, TEXT_NOTICE_IN_OVERWORLD, "I can’t believe how ridiculously high\nthis is! But from up here, you can tell\fwhat it feels like to be a bird Pokémon!\rLet me see if you’re good enough to\nface Falkner!\r"
@@ -1186,7 +1186,7 @@ _0A3C: // Trainer 4
     trainertextentry   4, TEXT_REMATCH_IN_OVERWORLD, "I was waiting for you. Let’s battle!\r"
 
 _0A4C: // Trainer 383
-    trainertextentry 383, TEXT_NOTICE_IN_OVERWORLD, "That Badge!\rIt’s from Violet City!\nYou beat Falkner?\r"
+    trainertextentry 383, TEXT_NOTICE_IN_OVERWORLD, "That Badge!\rIt’s from Violet City!\nYou beat Whitney?\r"
     trainertextentry 383, TEXT_DEFEATED_IN_BATTLE, "I know what my weaknesses are.\n"
     trainertextentry 383, TEXT_DEFEATED_IN_OVERWORLD, "I should train again at the Gym in\nViolet City.\n"
 
@@ -1820,14 +1820,14 @@ _1038: // Trainer 52
     trainertextentry  52, TEXT_DEFEATED_IN_OVERWORLD, "I tried to copy BELLSPROUT’s gentle\nmovements for battle...\rBut I didn’t train well enough.\n"
 
 _1044: // Trainer 55
-    trainertextentry  55, TEXT_NOTICE_IN_OVERWORLD, "The Elder’s TM lights even\npitch-black darkness.\r"
-    trainertextentry  55, TEXT_DEFEATED_IN_BATTLE, "It is my head that is bright!\n"
+    trainertextentry  55, TEXT_NOTICE_IN_OVERWORLD, "The Elder’s TM brings out\nyour Pokémon’s potential.\r"
+    trainertextentry  55, TEXT_DEFEATED_IN_BATTLE, "Broke through me!\n"
     trainertextentry  55, TEXT_DEFEATED_IN_OVERWORLD, "Let there be light on your journey.\n"
 
 _1050: // Trainer 290
     trainertextentry 290, TEXT_NOTICE_IN_OVERWORLD, "So good of you to come here!\rSprout Tower is a place of training.\nPeople and Pokémon test their bonds\fto build a bright future together.\fI am the final test.\rAllow me to check the ties between\nyou and your Pokémon!"
     trainertextentry 290, TEXT_DEFEATED_IN_BATTLE, "Ah, excellent!\n"
-    trainertextentry 290, TEXT_DEFEATED_IN_OVERWORLD, "You and your Pokémon should have no\nproblem using this move.\rTake this Flash TM.\n"
+    trainertextentry 290, TEXT_DEFEATED_IN_OVERWORLD, "You and your Pokémon should have no\nproblem using this move.\rTake this TM.\n"
 
 _105C: // Trainer 281
     trainertextentry 281, TEXT_NOTICE_IN_OVERWORLD, "I’m practicing my fire breathing in the\nBurned Tower! Don’t try this at home!\r"
