@@ -33,6 +33,9 @@
 
 .endif
 
+// custom asm scripts
+.include "armips/asm/custom/mart_items.s"
+
 .ifdef APPLY_ANTIPIRACY
 
 .include "armips/asm/antipiracy.s" // install antipiracy into the rom
