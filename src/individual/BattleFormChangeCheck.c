@@ -238,28 +238,28 @@ BOOL BattleFormChangeCheck(void *bw, struct BattleStruct *sp, int *seq_no)
         }
 
         // handle darmanitan zen mode
-        if ((sp->battlemon[sp->battlerIdTemp].species == SPECIES_DARMANITAN)
-         && (GetBattlerAbility(sp, sp->battlerIdTemp) == ABILITY_ZEN_MODE)
-         && (sp->battlemon[sp->battlerIdTemp].hp)
-         && (sp->battlemon[sp->battlerIdTemp].hp <= (s32)(sp->battlemon[sp->battlerIdTemp].maxhp / 2))
-         && (sp->battlemon[sp->battlerIdTemp].form_no < 2)) // forms 0 and 1
-        {
-            sp->battlemon[sp->battlerIdTemp].form_no += 2;
-            BattleFormChange(sp->battlerIdTemp, sp->battlemon[sp->battlerIdTemp].form_no, bw, sp, 1);
-            *seq_no = SUB_SEQ_FORM_CHANGE;
-            ret = TRUE;
-            break;
-        } else if ((sp->battlemon[sp->battlerIdTemp].species == SPECIES_DARMANITAN)
-         && (sp->battlemon[sp->battlerIdTemp].hp)
-         && (sp->battlemon[sp->battlerIdTemp].hp > (s32)(sp->battlemon[sp->battlerIdTemp].maxhp / 2) || (GetBattlerAbility(sp, sp->battlerIdTemp) != ABILITY_ZEN_MODE))
-         && (sp->battlemon[sp->battlerIdTemp].form_no >= 2)) // forms 2 and 3
-        {
-            sp->battlemon[sp->battlerIdTemp].form_no -= 2;
-            BattleFormChange(sp->battlerIdTemp, sp->battlemon[sp->battlerIdTemp].form_no, bw, sp, 1);
-            *seq_no = SUB_SEQ_FORM_CHANGE;
-            ret = TRUE;
-            break;
-        }
+        //if ((sp->battlemon[sp->battlerIdTemp].species == SPECIES_DARMANITAN)
+        // && (GetBattlerAbility(sp, sp->battlerIdTemp) == ABILITY_ZEN_MODE)
+        // && (sp->battlemon[sp->battlerIdTemp].hp)
+        // && (sp->battlemon[sp->battlerIdTemp].hp <= (s32)(sp->battlemon[sp->battlerIdTemp].maxhp / 2))
+        // && (sp->battlemon[sp->battlerIdTemp].form_no < 2)) // forms 0 and 1
+        //{
+        //    sp->battlemon[sp->battlerIdTemp].form_no += 2;
+        //    BattleFormChange(sp->battlerIdTemp, sp->battlemon[sp->battlerIdTemp].form_no, bw, sp, 1);
+        //    *seq_no = SUB_SEQ_FORM_CHANGE;
+        //    ret = TRUE;
+        //    break;
+        //} else if ((sp->battlemon[sp->battlerIdTemp].species == SPECIES_DARMANITAN)
+        // && (sp->battlemon[sp->battlerIdTemp].hp)
+        // && (sp->battlemon[sp->battlerIdTemp].hp > (s32)(sp->battlemon[sp->battlerIdTemp].maxhp / 2) || (GetBattlerAbility(sp, sp->battlerIdTemp) != ABILITY_ZEN_MODE))
+        // && (sp->battlemon[sp->battlerIdTemp].form_no >= 2)) // forms 2 and 3
+        //{
+        //    sp->battlemon[sp->battlerIdTemp].form_no -= 2;
+        //    BattleFormChange(sp->battlerIdTemp, sp->battlemon[sp->battlerIdTemp].form_no, bw, sp, 1);
+        //    *seq_no = SUB_SEQ_FORM_CHANGE;
+        //    ret = TRUE;
+        //    break;
+        //}
 
         // fuck illusion
         if (GetBattlerAbility(sp, sp->battlerIdTemp) == ABILITY_ILLUSION

@@ -699,7 +699,7 @@ A sandstorm kicked up!
 The sunlight turned harsh!
 (Unused)
 (Unused)
-It started to hail!
+It started to snow!
 (Unused)
 (Unused)
 {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nprevents {STRVAR_1 13, 2, 0} loss!
