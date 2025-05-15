@@ -1641,24 +1641,24 @@ encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
 encounter SPECIES_FRILLISH, 10, 10
-encounter SPECIES_SLOWPOKE, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
+encounterwithform SPECIES_FRILLISH, 1, 10, 10
+encounterwithform SPECIES_FRILLISH, 1, 10, 10
+encounterwithform SPECIES_FRILLISH, 1, 10, 10
+encounterwithform SPECIES_FRILLISH, 1, 10, 10
 
 // good rod encounters
 encounter SPECIES_FRILLISH, 20, 20
-encounter SPECIES_SLOWPOKE, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
+encounterwithform SPECIES_FRILLISH, 1, 20, 20
+encounterwithform SPECIES_FRILLISH, 1, 20, 20
+encounterwithform SPECIES_FRILLISH, 1, 20, 20
+encounterwithform SPECIES_FRILLISH, 1, 20, 20
 
 // super rod encounters
 encounter SPECIES_JELLICENT, 40, 40
-encounter SPECIES_CLODSIRE, 40, 40
-encounter SPECIES_GYARADOS, 40, 40
-encounter SPECIES_GYARADOS, 40, 40
-encounter SPECIES_GYARADOS, 40, 40
+encounterwithform SPECIES_JELLICENT, 1, 40, 40
+encounterwithform SPECIES_JELLICENT, 1, 40, 40
+encounterwithform SPECIES_JELLICENT, 1, 40, 40
+encounterwithform SPECIES_JELLICENT, 1, 40, 40
 
 // swarm grass
 pokemon SPECIES_GEODUDE
