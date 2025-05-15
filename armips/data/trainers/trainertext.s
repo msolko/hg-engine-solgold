@@ -315,7 +315,7 @@ _0200: // Trainer 719
 _020C: // Trainer 29
     trainertextentry  29, TEXT_NOTICE_IN_OVERWORLD, "When I heard my BFF wanted to change\nthings up, of course I came with!\rWait, I wasn’t supposed to say that...\nFalkner is still here, got it?\r"
     trainertextentry  29, TEXT_DEFEATED_IN_BATTLE, "Gaaah!\n"
-    trainertextentry  29, TEXT_DEFEATED_IN_OVERWORLD, "I think you’ll go far with\n a fiesty attitude like that!"
+    trainertextentry  29, TEXT_DEFEATED_IN_OVERWORLD, "I think you’ll go far with\na feisty attitude like that!"
 
 _0218: // Trainer 50
     trainertextentry  50, TEXT_NOTICE_IN_OVERWORLD, "I can’t believe how ridiculously high\nthis is! But from up here, you can tell\fwhat it feels like to be a bird Pokémon!\rLet me see if you’re good enough to\nface Falkner!\r"
@@ -1245,7 +1245,7 @@ _0AB4: // Trainer 61
 
 _0AC4: // Trainer 66
     trainertextentry  66, TEXT_NOTICE_IN_OVERWORLD, "I’m confident in my ability to raise\nPokémon. Want to see?\r"
-    trainertextentry  66, TEXT_DEFEATED_IN_BATTLE, "Didn’t I train enough?\n"
+    trainertextentry  66, TEXT_DEFEATED_IN_BATTLE, "My monopoly on items wasn’t enough!\n"
     trainertextentry  66, TEXT_DEFEATED_IN_OVERWORLD, "Hmm... Maybe I should take them to\nPokémon Day Care? What should I do?\n"
     trainertextentry  66, TEXT_REMATCH_IN_OVERWORLD, "Hey, you’re back!\rBattle my carefully trained Pokémon!\r"
 

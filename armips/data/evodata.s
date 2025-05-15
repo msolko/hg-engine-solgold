@@ -13533,7 +13533,7 @@ evodata SPECIES_GROUDON_PRIMAL
 terminateevodata
 
 evodata SPECIES_RATTATA_ALOLAN
-    evolutionwithform EVO_LEVEL_NIGHT, 20, SPECIES_RATICATE, 1
+    evolutionwithform EVO_LEVEL, 20, SPECIES_RATICATE, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

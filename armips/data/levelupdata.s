@@ -17840,7 +17840,7 @@ levelup SPECIES_KOMALA
     learnset MOVE_YAWN, 1
     learnset MOVE_RAPID_SPIN, 4
     learnset MOVE_ROLLOUT, 7
-    learnset MOVE_LEAF_BLADE, 10
+    learnset MOVE_LEAFAGE, 10
     learnset MOVE_CHARM, 13
     learnset MOVE_SLAM, 16
     learnset MOVE_FLAIL, 19
