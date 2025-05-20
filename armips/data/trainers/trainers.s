@@ -2010,7 +2010,7 @@ trainerdata 34, "Chuck"
         pokemon SPECIES_MACHOKE
         item ITEM_EVIOLITE
         move MOVE_DRAIN_PUNCH
-        move MOVE_POWER_UP_PUNCH
+        move MOVE_FACADE
         move MOVE_STONE_EDGE
         move MOVE_SUCKER_PUNCH
         ability ABILITY_GUTS
@@ -2932,7 +2932,7 @@ trainerdata 53, "Jin"
         ball ITEM_GREAT_BALL
         setivs 10, 10, 10, 10, 10, 10 // hp, atk, def, spd, spatk, spdef
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_ADAMANT
+        nature NATURE_BRAVE
         shinylock 0
         additionalflags 0 // no further entries data will be read, but needs to be here as the trainer data structure specifies additionalflags
         ballseal 0
