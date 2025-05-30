@@ -37063,7 +37063,7 @@ const ITEMDATA __data[] =
 
 [ITEM_DREAM_BALL - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 0,
+    .price = 200,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -40963,7 +40963,7 @@ const ITEMDATA __data[] =
 
 [ITEM_SWEET_APPLE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 200,
+    .price = 2100,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -41028,7 +41028,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TART_APPLE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 200,
+    .price = 2100,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -41288,7 +41288,7 @@ const ITEMDATA __data[] =
 
 [ITEM_AUSPICIOUS_ARMOR - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 200,
+    .price = 2100,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -41743,7 +41743,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MALICIOUS_ARMOR - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 200,
+    .price = 2100,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
