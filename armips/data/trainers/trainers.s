@@ -9858,7 +9858,7 @@ trainerdata 248, "Ed"
 trainerdata 249, "Don"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_BALL | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass TRAINERCLASS_BUG_CATCHER
-    nummons 4
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE 
     item ITEM_NONE 
@@ -9872,13 +9872,13 @@ trainerdata 249, "Don"
         ivs 120
         abilityslot 0
         level 5
-        pokemon SPECIES_GRUBBIN
+        pokemon SPECIES_NYMBLE
         item ITEM_NONE
+        move MOVE_TACKLE
         move MOVE_STRUGGLE_BUG
-        move MOVE_SPARK
         move MOVE_NONE
         move MOVE_NONE
-        ability ABILITY_STATIC
+        ability ABILITY_SWARM
         ball ITEM_POKE_BALL
         setivs 5, 5, 5, 5, 5, 5 // hp, atk, def, spd, spatk, spdef
         setevs 0, 0, 0, 0, 0, 0
@@ -9886,27 +9886,8 @@ trainerdata 249, "Don"
         shinylock 0
         additionalflags 0 // no further entries data will be read, but needs to be here as the trainer data structure specifies additionalflags
         ballseal 0
-    
-        //mon 1
-        ivs 200
-        abilityslot 0
-        level 5
-        pokemon SPECIES_SURSKIT
-        item ITEM_NONE
-        move MOVE_WATER_GUN
-        move MOVE_STRUGGLE_BUG
-        move MOVE_INFESTATION
-        move MOVE_NONE
-        ability ABILITY_SWIFT_SWIM
-        ball ITEM_POKE_BALL
-        setivs 5, 5, 5, 5, 5, 5 // hp, atk, def, spd, spatk, spdef
-        setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_BOLD
-        shinylock 0
-        additionalflags 0 // no further entries data will be read, but needs to be here as the trainer data structure specifies additionalflags
-        ballseal 0
 
-        //mon 2
+        //mon 1
         ivs 200
         abilityslot 0
         level 6
@@ -9925,7 +9906,7 @@ trainerdata 249, "Don"
         additionalflags 0 // no further entries data will be read, but needs to be here as the trainer data structure specifies additionalflags
         ballseal 0
 
-        //mon 3
+        //mon 2
         ivs 200
         abilityslot 0
         level 6
@@ -12239,7 +12220,7 @@ trainerdata 289, "Silver"
 trainerdata 290, "Li"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_BALL | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass TRAINERCLASS_ELDER
-    nummons 5
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE 
     item ITEM_NONE 
@@ -12309,33 +12290,14 @@ trainerdata 290, "Li"
 	    //mon 3
         ivs 255
         abilityslot 0
-        level 12
-        pokemon SPECIES_SEEDOT
-        item ITEM_ROCKY_HELMET
-        move MOVE_ANCIENT_POWER
-        move MOVE_LEAFAGE
-        move MOVE_LEECH_SEED
-        move MOVE_HIDDEN_POWER
-        ability ABILITY_STURDY
-        ball ITEM_NEST_BALL
-        setivs 20, 20, 19, 20, 19, 19 // hp, atk, def, spd, spatk, spdef
-        setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_RELAXED
-        shinylock 0
-        additionalflags 0 // no further entries data will be read, but needs to be here as the trainer data structure specifies additionalflags
-        ballseal 0
-
-	    //mon 4
-        ivs 255
-        abilityslot 0
-        level 12
+        level 13
         pokemon SPECIES_AIPOM
         item ITEM_NONE
         move MOVE_FURY_SWIPES
         move MOVE_ARM_THRUST
         move MOVE_FAKE_OUT
         move MOVE_NONE
-        ability ABILITY_SKILL_LINK
+        ability ABILITY_TECHNICIAN
         ball ITEM_NEST_BALL
         setivs 20, 20, 20, 20, 20, 20 // hp, atk, def, spd, spatk, spdef
         setevs 0, 0, 0, 0, 0, 0
