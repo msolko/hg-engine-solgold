@@ -309,19 +309,18 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
                     u32 nature = GetNatureFromPersonality(GetMonData(pokemon, MON_DATA_PERSONALITY, NULL));
                     switch (nature)
                     {
-                    case NATURE_ADAMANT:
-                    case NATURE_BRAVE:
-                    case NATURE_DOCILE:
                     case NATURE_HARDY:
-                    case NATURE_HASTY:
-                    case NATURE_IMPISH:
-                    case NATURE_JOLLY:
-                    case NATURE_LAX:
-                    case NATURE_NAIVE:
+                    case NATURE_LONELY:
+                    case NATURE_ADAMANT:
                     case NATURE_NAUGHTY:
-                    case NATURE_QUIRKY:
-                    case NATURE_RASH:
-                    case NATURE_SASSY:
+                    case NATURE_BRAVE:
+                    case NATURE_IMPISH:
+                    case NATURE_BASHFUL:
+                    case NATURE_CAREFUL:
+                    case NATURE_TIMID:
+                    case NATURE_HASTY:
+                    case NATURE_JOLLY:
+                    case NATURE_NAIVE:
                         if (lowkey == 0) // for the amped evo method
                         {
                             target = evoTable[i].target & 0x7FF;

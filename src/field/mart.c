@@ -20,24 +20,24 @@ struct BadgeMartItems {
 // note: limited to 203 items (~34 pages)
 const struct BadgeMartItems sBadgeMart[] = {
     { ITEM_POKE_BALL, 0 },
-    { ITEM_GREAT_BALL, 3 },
-    { ITEM_ULTRA_BALL, 5 },
+    { ITEM_GREAT_BALL, 2 },
+    { ITEM_ULTRA_BALL, 4 },
     { ITEM_POTION, 0 },
     { ITEM_SUPER_POTION, 1 },
     { ITEM_HYPER_POTION, 5 },
     { ITEM_MAX_POTION, 7 },
     { ITEM_FULL_RESTORE, 8 },
     { ITEM_REVIVE, 3 },
-    { ITEM_ANTIDOTE, 0 },
+    { ITEM_RARE_CANDY, 0 },
     { ITEM_PARALYZE_HEAL, 0 },
     { ITEM_AWAKENING, 1 },
     { ITEM_BURN_HEAL, 1 },
     { ITEM_ICE_HEAL, 1 },
-    { ITEM_FULL_HEAL, 5 },
+    { ITEM_FULL_HEAL, 0 },
     { ITEM_ESCAPE_ROPE, 1 },
     { ITEM_REPEL, 1 },
     { ITEM_SUPER_REPEL, 3 },
-    { ITEM_MAX_REPEL, 5 },
+    { ITEM_MAX_REPEL, 0 },
 };
 
 void LONG_CALL InitMartUI(void *taskManager, FieldSystem *fieldSystem, const u16 *items, int kind, int buySell, int decoWhich, const struct MartItem *priceOverrides);
